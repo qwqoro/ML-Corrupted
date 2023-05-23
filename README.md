@@ -1,4 +1,4 @@
-![banner](banner.gif)
+![gif](images/gif.gif)
 
 <p align="center">
 	<code>[ Have a look at the related <a href="https://github.com/jupyter/notebook">Jupyter</a> Notebook: <a href="ML-Corrupted.ipynb"><code>ML-Corrupted.ipynb</code></a> ]</code><br>
@@ -26,7 +26,7 @@ Thus, my aim was to build models that would guess types of broken files.
 # 📊 Results
 
 <p align="center">
-	<img src="overview.gif" /><br>
+	<img src="images/overview.gif" /><br>
 	<code align="center">Test set of files + knnRecG8 (<code>./guess</code>)</code>
 </p>
 
@@ -48,7 +48,7 @@ Thus, my aim was to build models that would guess types of broken files.
 - ⚙️ **Executables**
     - Portable Executables: [Microsoft Malware Classification Challenge](https://www.kaggle.com/c/malware-classification/) `[5]`
 
-<p alt="File formats distribution + file count histogram" align="center"><img src="files.png"/></p>
+<p alt="File formats distribution + file count histogram" align="center"><img src="images/files.png"/></p>
 
 
 ## Features
@@ -97,7 +97,7 @@ from sklearn.metrics import accuracy_score               # Accuracy score
 
 Also, heatmaps were used to visually compare accuracy scores of predictions _(on validation sets)_ of different models. For example, the heatmap below depicts the difference between K-Nearest Neighbors model _(train dataset = `G8`)_ with default hyperparameters _(`knnG8`)_ and the ones recommended by `RandomizedSearchCV` _(`knnRecG8`)_:
 
-<p alt="Heatmap (KNN, G8)" align="center"><img src="knnexample.png"/></p>
+<p alt="Heatmap (KNN, G8)" align="center"><img src="images/knnexample.png"/></p>
 
 
 ## Libraries
